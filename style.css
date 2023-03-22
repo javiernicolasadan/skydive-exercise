@@ -55,8 +55,11 @@ h5{
     font-size: 2em;
 }
 
-.nav-bar ul{
-    margin: 0;
+.nav-bar ul {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .header {
@@ -134,11 +137,17 @@ h2 {
 .footer {
     text-align: center;
     font-size: 1.9em;
+    padding: 40px 100px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .address {
     font-style: normal;
     font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .footer a {
@@ -148,4 +157,11 @@ h2 {
 
 .footer ul {
     list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
 }
